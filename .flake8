@@ -1,2 +1,7 @@
 [flake8]
-ignore = E265,E501,E722
+select = BLK,C,E,F,I,W
+max-complexity = 10
+ignore = E203,E503
+max-line-length = 120
+application-import-names = hypermodern_python,tests
+import-order-style = google
