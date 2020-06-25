@@ -23,10 +23,6 @@ pytest-cov = "^2.10.0"
 [tool.poetry.scripts]
 hypermodern-python = "hypermodern_python.console:main"
 
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
-
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
 
@@ -37,3 +33,7 @@ source = ["hypermodern_python"]
 [tool.coverage.report]
 show_missing = true
 fail_under = 70
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
