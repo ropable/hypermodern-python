@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hypermodern-python"
-version = "0.1.0"
+version = "0.1.1"
 description = "Following the hypermodern Python article"
 authors = ["Ashley Felton <ashley@ropable.com>"]
 readme = "README.md"
@@ -34,6 +34,7 @@ source = ["hypermodern_python"]
 [tool.coverage.report]
 show_missing = true
 fail_under = 70
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
